@@ -1,0 +1,12 @@
+[project]
+name = "atliq-hr-assist"
+version = "0.1.0"
+description = "MCP-based HR assistant with workflow reliability and evaluation tooling"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]>=1.28.1",
+    "python-dotenv>=1.0.1",
+    "sqlalchemy>=2.0.30",
+    "pytest>=8.0.0",
+]
