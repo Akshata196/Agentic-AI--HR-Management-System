@@ -677,7 +677,7 @@ Audit logging provides traceability for recorded events but is not tamper-proof 
 
 ### System Architecture and Workflows
 
-![Agentic AI HR Management System Architecture and Workflows](Demo/Agentic-AI-HR-System-Workflows.png)
+![Agentic AI HR Management System Architecture and Workflows](<Demo/Agentic AI HR System Workflows.png>)
 
 The architecture infographic summarizes the system components and the employee onboarding, human-in-the-loop leave approval, and multi-attendee meeting scheduling workflows.
 
