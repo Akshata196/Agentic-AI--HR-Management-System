@@ -4,6 +4,12 @@ An **Agentic AI-powered HR Management System** built using **Python, Model Conte
 
 The project demonstrates how an LLM-powered assistant can coordinate multiple business operations while relying on application-level validation, business logic, database operations, and authorization checks.
 
+The system follows a layered architecture that separates the conversational AI client, MCP integration, business logic, and database operations.
+
+![Agentic AI HR Management System Architecture and Workflows](<Demo/Agentic AI HR System Workflows.png>)
+
+The architecture infographic summarizes the system components and the employee onboarding, human-in-the-loop leave approval, and multi-attendee meeting scheduling workflows.
+
 ## 📌 Table of Contents
 
 - [Project Overview](#-project-overview)
@@ -75,6 +81,7 @@ The application separates the LLM interface from deterministic business logic. T
 - Record important leave-request events for traceability.
 - Improve meeting scheduling with multiple attendees and conflict validation.
 - Support automated testing and application observability.
+
 
 ---
 
@@ -275,7 +282,10 @@ Return meeting details
 
 The system follows a layered architecture that separates the conversational AI client, MCP integration, business logic, and database operations.
 
-![Agentic AI HR Management System Architecture and Workflows](Demo/architecture-workflows.png)
+![Agentic AI HR Management System Architecture and Workflows](<Demo/Agentic AI HR System Workflows.png>)
+
+The architecture infographic summarizes the system components and the employee onboarding, human-in-the-loop leave approval, and multi-attendee meeting scheduling workflows.
+
 
 
 ```text
@@ -665,7 +675,7 @@ Audit logging provides traceability for recorded events but is not tamper-proof 
 
 ---
 
-## 🖼️ Demo Screenshots and Architecture Image
+## 🖼️ Demo Screenshots
 
 ### Demo Screenshot 1
 
@@ -675,11 +685,7 @@ Audit logging provides traceability for recorded events but is not tamper-proof 
 
 ![Claude Desktop HR Workflow - Screenshot 2](Demo/SS2.png)
 
-### System Architecture and Workflows
 
-![Agentic AI HR Management System Architecture and Workflows](<Demo/Agentic AI HR System Workflows.png>)
-
-The architecture infographic summarizes the system components and the employee onboarding, human-in-the-loop leave approval, and multi-attendee meeting scheduling workflows.
 
 ---
 
